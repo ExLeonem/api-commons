@@ -1,4 +1,8 @@
 defmodule ApiCommons.Model do
+  @moduledoc """
+  Basic error handling for phoenix models.
+
+  """
 
   defmacro __using__(opts) do
     manual_fields = Keyword.get(opts, :manual, [])

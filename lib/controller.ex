@@ -1,5 +1,6 @@
 defmodule ApiCommons.Controller do
   @moduledoc """
+  Basic error handling and entity parsing for phoenix controllers.
 
   """
 
